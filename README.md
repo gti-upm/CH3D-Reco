@@ -11,7 +11,6 @@ The dataset used in these experiments is publicly available on Zenodo:
 
 > **Dataset:** [https://zenodo.org/records/18598772](https://zenodo.org/records/18598772)
 
-If you use this code or dataset in your own work, please cite the article above.
 ---
 
 ## Table of Contents
@@ -186,3 +185,37 @@ Each script writes its results to an Excel file (`.xlsx`):
 | `mesh_metrics.py` | `L2_Haussdorf_distance_metrics.xlsx` | One row per configuration: Hausdorff max + L2 RMS |
 | `image_metrics.py` | `captures{N}_{texturizer}_{mp}_image_metrics_union.xlsx` | One row per image (all metrics) + a final TOTAL row with column means and FID score |
 
+## Citation
+
+If you use this code or dataset in your own work, please cite the article and the dataset:
+
+    @article{FERRAROTTI2026117514,
+    title = {Quality assessment of 3D reconstructed meshes: Bridging objective metrics, subjective perception, and behavioral cues},
+    journal = {Signal Processing: Image Communication},
+    volume = {143},
+    pages = {117514},
+    year = {2026},
+    issn = {0923-5965},
+    doi = {https://doi.org/10.1016/j.image.2026.117514},
+    url = {https://www.sciencedirect.com/science/article/pii/S0923596526000378},
+    author = {Anna Ferrarotti and Isabel Rodríguez and Javier Usón and Sara Baldoni and David Barbero and Daniel Berjón and Francisco Morán and Narciso García and Federica Battisti and Jesús Gutiérrez and Marco Carli and Julián Cabrera}
+    }
+
+---
+
+    @misc{ferrarotti_2026_18598772,
+    author = {Ferrarotti, Anna and Rodríguez, Isabel María and USON PEIRON, JAVIER and Baldoni, Sara and Barbero García, David and Berjón, Daniel and Morán Burgos, Francisco and García, Narciso and Battisti, Federica and Gutiérrez, Jesús and Carli, Marco and CABRERA QUESADA, JULIAN},
+    title = {Cultural Heritage 3D Reconstrutction for quality assessment (CH3D-Reco)},
+    month = feb,
+    year = 2026,
+    publisher = {Zenodo},
+    doi = {10.5281/zenodo.18598772},
+    url = {https://doi.org/10.5281/zenodo.18598772},
+    }
+
+
+## Acknowledgments
+
+This work was partially supported by the European Union under the Italian National Recovery and Resilience Plan (NRRP) Mission 4, Component 2, Investment 1.3, CUP C93C22005250001, partnership on “Telecommunications of the Future” (PE00000001 - program “RESTART”) and on the Spoke 4 - Cascade Call Project “EXperience and Privacy for Extended RealiTy” (“EXPERT”) and by the projects PID2023-148922OA-I00 (EEVOCATIONS) and TED2021-131690B-C31 (Revolution) funded by MCIN/AEI/10.13039/501100011033 of the Spanish Government, and HORIZON-IA-1010702-50 (XReco) funded by the European Union.
+
+Licensed under the MIT License.
